@@ -1,0 +1,8 @@
+{
+  "name": "conversor",
+  "version": "1.0.0",
+  "description": "Conversao e validacao de tipos - aula Classes Wrappers",
+  "main": "server.js",
+  "scripts": { "start": "node server.js" },
+  "dependencies": { "express": "^4.19.2" }
+}

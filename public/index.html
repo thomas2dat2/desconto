@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Conversor de Tipos</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>🧮 Calculadora de Compra</h1>
+    <p>Backend 2DAT2 — conversão e validação de tipos</p>
+  </header>
+
+  <main>
+    <div class="card">
+      <label>Preço (R$)
+        <input id="preco" type="text" placeholder="ex: 9.90" />
+      </label>
+      <label>Quantidade
+        <input id="quantidade" type="text" placeholder="ex: 3" />
+      </label>
+      <label>Desconto
+        <input id="desconto" type="text" placeholder="ex: 10" />
+      </label>
+      <button id="btn">Calcular total</button>
+      <p id="resultado" class="resultado"></p>
+    </div>
+    <p class="dica">Os campos chegam como <b>texto</b> no backend — ele converte e valida.</p>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
